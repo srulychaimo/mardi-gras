@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mardi Gras</title>
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <!-- The Header -->
+
+    <header>
+      <!-- nav from bs -->
+
+      <nav
+        class="navbar navbar-expand-md navbar-dark div-head"
+        aria-label="Fourth navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/nav-logo-image.webp" alt="logo image"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample04"
+            aria-controls="navbarsExample04"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-1 mx-2"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-2 mx-2" href="./html/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-3 mx-2" href="./html/media.html"
+                  >Media</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-4 mx-2" href="./html/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-5 mx-2" href="./html/contect.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- slider from bs -->
+
+    <section class="mt-5 d-none d-md-block">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/slider-img-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>a mardi gras party</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slider-img-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>the beautiful costumes</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slider-img-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>getting prepared with makeup and a mask</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slider-img-4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>the big party in the streets</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slider-img-5.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>all the stores sell some great costumes for mardi gras</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- a image for mobile -->
+    <section class="d-block d-md-none mt-3">
+      <img
+        src="./images/for-mobile.jpg"
+        alt="a image of mardi gras"
+        class="w-100"
+      />
+    </section>
+
+    <!-- the funders card section -->
+
+    <section class="mt-5 container">
+      <!-- card one -->
+      <div class="row justify-content-evenly">
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-1.png"
+            class="card-img-top py-5"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Walk-On's Bistreaux</h5>
+            <p class="card-text">
+              There’s really no better way to describe the uniqueness of
+              Walk-On’s Sports Bistreaux.
+            </p>
+            <a
+              href="https://walk-ons.com"
+              target="_blank"
+              class="btn bgc-primary"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+
+        <!-- card tew -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-2.png"
+            class="card-img-top py-1"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sheraton Hotel</h5>
+            <p class="card-text">
+              Sheraton New Orleans Hotel is the perfect home base for your
+              downtown escape.
+            </p>
+            <a
+              href="https://sheraton.marriott.com"
+              target="_blank"
+              class="btn bgc-secondary"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+
+        <!-- card three -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-3.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ace Hotel</h5>
+            <p class="card-text">
+              There's a shimmering pool on the roof, world-class dining and a
+              music venue at the street.
+            </p>
+            <a
+              href="https://acehotel.com/new-orleans/?gclid=Cj0KCQiAmKiQBhClARIsAKtSj-lMZ2GOVL4xkmdwzFrJ8ACooELbDNw_6XxKFYMjZnIP2PggMHu1v3UaAhZZEALw_wcB"
+              target="_blank"
+              class="btn bgc-warning"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+
+        <!-- card four -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-4.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Ritz-Carlton</h5>
+            <p class="card-text">
+              Rich in history and personality, New Orleans is unlike any other
+              US city. Honoring its spirit and elegance, The Ritz-Carlton,
+            </p>
+            <a
+              href="https://www.ritzcarlton.com/en/hotels/new-orleans"
+              target="_blank"
+              class="btn bgc-light"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+
+        <!-- image logo -->
+
+        <img
+          src="/images/mainLogo.png"
+          alt=""
+          class="col-sm-8 col-md-6 col-lg-4"
+        />
+
+        <!-- card five -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-5.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Premium Parking - P402</h5>
+            <p class="card-text">
+              This is a convenient parking option! I've never had a problem with
+              finding an available space.
+            </p>
+            <a
+              href="https://www.premiumparking.com/P402"
+              target="_blank"
+              class="btn btn-primary"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+
+        <!-- card six -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-6.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Louisiana Children's Museum</h5>
+            <p class="card-text">
+              When you make a child's potential visible, wonderful things
+              happen.
+            </p>
+            <a href="https://lcm.org" target="_blank" class="btn bgc-primary"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+        <!-- card seven -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-7.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Museum of Death</h5>
+            <p class="card-text">
+              The Museum of Death is observing the city of New Orleans' mask and
+              vaccine mandate.
+            </p>
+            <a
+              href="http://www.museumofdeath.net"
+              target="_blank"
+              class="btn bgc-secondary"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+        <!-- card eight -->
+
+        <div class="card col-sm-8 col-md-6 col-lg-4">
+          <img
+            src="../images/card's/card-8.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Haunted Museum</h5>
+            <p class="card-text">
+              Join us for a spirited adventure through Zak Bagans’ The Haunted
+              Museum in Las Vegas,
+            </p>
+            <a
+              href="https://thehauntedmuseum.com/"
+              target="_blank"
+              class="btn bgc-warning"
+              >Visit our site</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-div mt-5"></div>
+    </footer>
+  </body>
+</html>

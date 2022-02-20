@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=IBM+Plex+Sans+Thai+Looped&family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap");
+.div-head {
+  background: #9453a6;
+  background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
+}
+
+.div-head .link-1, .div-head .link-2, .div-head .link-3, .div-head .link-4, .div-head .link-5 {
+  background-color: #9453a6;
+  border-radius: 5px;
+  color: #f2f2f2;
+}
+
+.div-head .link-2 {
+  background-color: #8cbf3f;
+}
+
+.div-head .link-3 {
+  background-color: #f2cc0f;
+  color: black;
+}
+
+.div-head .link-4 {
+  background-color: #0d0d0d;
+}
+
+.bgc-primary {
+  background-color: #9453a6;
+}
+
+.bgc-secondary {
+  background-color: #8cbf3f;
+}
+
+.bgc-warning {
+  background-color: #f2cc0f;
+}
+
+.bgc-light {
+  background-color: #f2f2f2;
+}
+
+.bgc-dark {
+  background-color: #0d0d0d;
+}
+
+.footer-div {
+  height: 130px;
+  width: 100%;
+  background: #9453a6;
+  background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
+}
+/*# sourceMappingURL=style.css.map */

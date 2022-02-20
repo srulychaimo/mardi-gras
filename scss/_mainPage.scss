@@ -7,6 +7,14 @@ $warningColor: #f2cc0f;
 $lightColor: #f2f2f2;
 $darkColor: #0d0d0d;
 
+.main-font {
+  font-family: $mainFont;
+}
+
+.text-font {
+  font-family: $textFont;
+}
+
 .div-head {
   background: rgb(148, 83, 166);
   background: linear-gradient(
@@ -55,6 +63,22 @@ $darkColor: #0d0d0d;
   background-color: $darkColor;
 }
 
+.art-text {
+  font-size: 1.5rem;
+}
+
+.the-cards {
+  h5 {
+    font-family: $mainFont;
+  }
+  p {
+    font-family: $textFont;
+  }
+  a {
+    font-family: $textFont;
+  }
+}
+
 //**************    footer   **************//
 
 .footer-div {
@@ -68,4 +92,8 @@ $darkColor: #0d0d0d;
     rgba(140, 191, 63, 1) 55%,
     rgba(242, 204, 15, 1) 100%
   );
+  h2 {
+    font-size: 3vw;
+    font-weight: bold;
+  }
 }

@@ -9,9 +9,11 @@ $darkColor: #0d0d0d;
 
 .bgc-primary {
   background-color: $primaryColor;
+  color: #f2f2f2;
 }
 .bgc-secondary {
   background-color: $secondaryColor;
+  color: #f2f2f2;
 }
 .bgc-warning {
   background-color: $warningColor;
@@ -21,21 +23,11 @@ $darkColor: #0d0d0d;
 }
 .bgc-dark {
   background-color: $darkColor;
+  color: #f2f2f2;
 }
 
-.art-text {
-  font-size: 1.5rem;
-}
-
-.the-cards {
-  h5 {
+.main-div {
+  h2 {
     font-family: $mainFont;
-    font-weight: bold;
-  }
-  p {
-    font-family: $textFont;
-  }
-  a {
-    font-family: $textFont;
   }
 }

@@ -1,7 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=IBM+Plex+Sans+Thai+Looped&family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap");
+.bgc-primary {
+  background-color: #9453a6;
+}
+
+.bgc-secondary {
+  background-color: #8cbf3f;
+}
+
+.bgc-warning {
+  background-color: #f2cc0f;
+}
+
+.bgc-light {
+  background-color: #f2f2f2;
+}
+
+.bgc-dark {
+  background-color: #0d0d0d;
+}
+
+.art-text {
+  font-size: 1.5rem;
+}
+
+.the-cards h5 {
+  font-family: "Henny Penny", cursive;
+  font-weight: bold;
+}
+
+.the-cards p {
+  font-family: "Roboto", sans-serif;
+}
+
+.the-cards a {
+  font-family: "Roboto", sans-serif;
+}
+
+.bgc-primary {
+  background-color: #9453a6;
+  color: #f2f2f2;
+}
+
+.bgc-secondary {
+  background-color: #8cbf3f;
+  color: #f2f2f2;
+}
+
+.bgc-warning {
+  background-color: #f2cc0f;
+}
+
+.bgc-light {
+  background-color: #f2f2f2;
+}
+
+.bgc-dark {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+
+.main-div h2 {
+  font-family: "Henny Penny", cursive;
+}
+
 .main-font {
   font-family: "Henny Penny", cursive;
+  font-weight: bold;
 }
 
 .text-font {
@@ -32,42 +97,6 @@
   background-color: #0d0d0d;
 }
 
-.bgc-primary {
-  background-color: #9453a6;
-}
-
-.bgc-secondary {
-  background-color: #8cbf3f;
-}
-
-.bgc-warning {
-  background-color: #f2cc0f;
-}
-
-.bgc-light {
-  background-color: #f2f2f2;
-}
-
-.bgc-dark {
-  background-color: #0d0d0d;
-}
-
-.art-text {
-  font-size: 1.5rem;
-}
-
-.the-cards h5 {
-  font-family: "Henny Penny", cursive;
-}
-
-.the-cards p {
-  font-family: "Roboto", sans-serif;
-}
-
-.the-cards a {
-  font-family: "Roboto", sans-serif;
-}
-
 .footer-div {
   height: 130px;
   width: 100%;
@@ -78,5 +107,9 @@
 .footer-div h2 {
   font-size: 3vw;
   font-weight: bold;
+}
+
+.footer-div p {
+  font-size: 1em;
 }
 /*# sourceMappingURL=style.css.map */

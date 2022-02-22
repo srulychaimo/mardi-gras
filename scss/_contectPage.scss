@@ -1,0 +1,17 @@
+$mainFont: "Henny Penny", cursive;
+$textFont: "Roboto", sans-serif;
+$mainBorderR: 5px;
+$primaryColor: #9453a6;
+$secondaryColor: #8cbf3f;
+$warningColor: #f2cc0f;
+$lightColor: #f2f2f2;
+$darkColor: #0d0d0d;
+
+.my-sec {
+  input {
+    width: 20vw;
+  }
+  textarea {
+    width: 20vw;
+  }
+}

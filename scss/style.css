@@ -64,6 +64,14 @@
   font-family: "Henny Penny", cursive;
 }
 
+.my-sec input {
+  width: 20vw;
+}
+
+.my-sec textarea {
+  width: 20vw;
+}
+
 .main-font {
   font-family: "Henny Penny", cursive;
   font-weight: bold;

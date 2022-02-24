@@ -7,7 +7,7 @@ $warningColor: #f2cc0f;
 $lightColor: #f2f2f2;
 $darkColor: #0d0d0d;
 
-.main-sec {
+.images-sec {
   background: rgb(148, 83, 166);
   background: linear-gradient(
     150deg,
@@ -15,17 +15,7 @@ $darkColor: #0d0d0d;
     rgba(140, 191, 63, 0.6) 55%,
     rgba(242, 204, 15, 0.6) 100%
   );
-  min-height: 100%;
-
-  .my-sec {
-    background: rgb(148, 83, 166);
-    background: linear-gradient(
-      150deg,
-      rgba(148, 83, 166, 1) 12%,
-      rgba(140, 191, 63, 1) 55%,
-      rgba(242, 204, 15, 1) 100%
-    );
-
-    font-family: $textFont;
+  h2 {
+    font-family: $mainFont;
   }
 }

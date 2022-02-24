@@ -26,9 +26,12 @@
     ></script>
 
     <!-- light box -->
+    <link rel="stylesheet" href="../css/lightbox.css" />
 
     <!-- my css -->
     <link rel="stylesheet" href="../scss/style.css" />
+
+    <script defer src="../javascript/lightbox-plus-jquery.js"></script>
   </head>
   <body>
     <!-- The Header -->
@@ -87,26 +90,115 @@
       </nav>
     </header>
 
-    <section>
-      <a
-        data-fslightbox="first-lightbox"
-        href="../images/lightbox-images/lb-img-1.jpg"
-        ><img src="../images/lightbox-images/lb-img-1.jpg" alt=""
-      /></a>
-      <a
-        data-fslightbox="second-lightbox"
-        href="../images/lightbox-images/lb-img-2.jpg"
-        ><img src="../images/lightbox-images/lb-img-2.jpg" alt=""
-      /></a>
+    <!-- images -->
 
-      <script src="fslightbox.min.js"></script>
+    <section class="images-sec">
+      <h2 class="py-4 text-center">Gallery of mardi gras celebrations</h2>
+      <div class="continer">
+        <div class="pb-5 row justify-content-around align-items-center">
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-1.jpg"
+            data-lightbox="image-1"
+            data-title="Nice Mask"
+            ><img
+              src="../images/lightbox-images/lb-img-1.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-2.jpg"
+            data-lightbox="image-1"
+            data-title="Nice Mask"
+            ><img
+              src="../images/lightbox-images/lb-img-2.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-3.jpg"
+            data-lightbox="image-1"
+            data-title="Our Model"
+            ><img
+              src="../images/lightbox-images/lb-img-3.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-4.jpg"
+            data-lightbox="image-1"
+            data-title="Mardi Gra History"
+            ><img
+              src="../images/lightbox-images/lb-img-4.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-5.jpg"
+            data-lightbox="image-1"
+            data-title="Mardi Gra History"
+            ><img
+              src="../images/lightbox-images/lb-img-5.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-6.jpg"
+            data-lightbox="image-1"
+            data-title="Mardi Gra History"
+            ><img
+              src="../images/lightbox-images/lb-img-6.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-7.jpg"
+            data-lightbox="image-1"
+            data-title="Nice Masks"
+            ><img
+              src="../images/lightbox-images/lb-img-7.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4"
+            href="../images/lightbox-images/lb-img-8.jpg"
+            data-lightbox="image-1"
+            data-title="Our City"
+            ><img
+              src="../images/lightbox-images/lb-img-8.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <a
+            class="col-10 col-md-6 col-lg-4 img-fluid"
+            href="../images/lightbox-images/lb-img-9.jpg"
+            data-lightbox="image-1"
+            data-title="Mardi Gra Celebration"
+            ><img
+              src="../images/lightbox-images/lb-img-9.jpg"
+              alt=""
+              class="img-fluid"
+          /></a>
+        </div>
+      </div>
     </section>
+
+    <!-- videos -->
+
+    <section></section>
 
     <!-- the footer -->
 
     <footer>
       <div
-        class="footer-div mt-5 main-font d-flex justify-content-center align-items-center flex-column pt-3"
+        class="footer-div main-font d-flex justify-content-center align-items-center flex-column pt-3"
       >
         <h2>Mardi Gras Celebrations 2022</h2>
 
@@ -115,6 +207,5 @@
         </p>
       </div>
     </footer>
-    <script src="fslightbox.min.js"></script>
   </body>
 </html>

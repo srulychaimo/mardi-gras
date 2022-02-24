@@ -64,10 +64,24 @@
   font-family: "Henny Penny", cursive;
 }
 
-.my-sec {
+.images-sec {
+  background: #9453a6;
+  background: linear-gradient(150deg, rgba(148, 83, 166, 0.6) 12%, rgba(140, 191, 63, 0.6) 55%, rgba(242, 204, 15, 0.6) 100%);
+}
+
+.images-sec h2 {
+  font-family: "Henny Penny", cursive;
+}
+
+.main-sec {
+  background: #9453a6;
+  background: linear-gradient(150deg, rgba(148, 83, 166, 0.6) 12%, rgba(140, 191, 63, 0.6) 55%, rgba(242, 204, 15, 0.6) 100%);
+  min-height: 100%;
+}
+
+.main-sec .my-sec {
   background: #9453a6;
   background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
-  border-radius: 40px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -85,11 +99,7 @@
   background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
 }
 
-.div-head .link-1,
-.div-head .link-2,
-.div-head .link-3,
-.div-head .link-4,
-.div-head .link-5 {
+.div-head .link-1, .div-head .link-2, .div-head .link-3, .div-head .link-4, .div-head .link-5 {
   background-color: #9453a6;
   border-radius: 5px;
   color: #f2f2f2;

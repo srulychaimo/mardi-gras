@@ -8,10 +8,14 @@ $lightColor: #f2f2f2;
 $darkColor: #0d0d0d;
 
 .my-sec {
-  input {
-    width: 20vw;
-  }
-  textarea {
-    width: 20vw;
-  }
+  background: rgb(148, 83, 166);
+  background: linear-gradient(
+    150deg,
+    rgba(148, 83, 166, 1) 12%,
+    rgba(140, 191, 63, 1) 55%,
+    rgba(242, 204, 15, 1) 100%
+  );
+
+  border-radius: 40px;
+  font-family: $textFont;
 }

@@ -25,13 +25,10 @@
       crossorigin="anonymous"
     ></script>
 
-<!-- light box -->
-<link href="path/to/lightbox.css" rel="stylesheet" />
-<script defer src="path/to/lightbox.js"></script>
-<script src="../lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+    <!-- light box -->
 
-<!-- my css -->
-    <link rel="stylesheet" href="/scss/style.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="../scss/style.css" />
   </head>
   <body>
     <!-- The Header -->
@@ -89,41 +86,35 @@
         </div>
       </nav>
     </header>
-  
-<!-- the lightbox -->
-<!-- 
-<a href="../lightbox2-2.11.3/dist/images/next.png" data-lightbox="roadtrip">Image #2</a>
-<a href="../lightbox2-2.11.3/dist/images/next.png" data-lightbox="roadtrip">Image #2</a>
-<a href="../lightbox2-2.11.3/dist/images/next.png" data-lightbox="roadtrip">Image #2</a>
-<a href="../lightbox2-2.11.3/dist/images/next.png" data-lightbox="roadtrip">Image #2</a>
-<a href="../lightbox2-2.11.3/dist/images/next.png" data-lightbox="roadtrip">Image #2</a>
-<a href="../lightbox2-2.11.3/dist/images/next.png" data-lightbox="roadtrip">Image #2</a> -->
 
+    <section>
+      <a
+        data-fslightbox="first-lightbox"
+        href="../images/lightbox-images/lb-img-1.jpg"
+        ><img src="../images/lightbox-images/lb-img-1.jpg" alt=""
+      /></a>
+      <a
+        data-fslightbox="second-lightbox"
+        href="../images/lightbox-images/lb-img-2.jpg"
+        ><img src="../images/lightbox-images/lb-img-2.jpg" alt=""
+      /></a>
 
-<section>
-  <div>
+      <script src="fslightbox.min.js"></script>
+    </section>
 
+    <!-- the footer -->
 
-  </div>
-</section>
+    <footer>
+      <div
+        class="footer-div mt-5 main-font d-flex justify-content-center align-items-center flex-column pt-3"
+      >
+        <h2>Mardi Gras Celebrations 2022</h2>
 
-
-
-
-
-      <!-- the footer -->
-  
-      <footer>
-        <div
-          class="footer-div mt-5 main-font d-flex justify-content-center align-items-center flex-column pt-3"
-        >
-          <h2>Mardi Gras Celebrations 2022</h2>
-  
-          <p class="text-font">
-            &copy Made With <i class="bi bi-heart-fill"></i> By Sruly Chaimowitz
-          </p>
-        </div>
-      </footer>
-    </body>
+        <p class="text-font">
+          &copy Made With <i class="bi bi-heart-fill"></i> By Sruly Chaimowitz
+        </p>
+      </div>
+    </footer>
+    <script src="fslightbox.min.js"></script>
   </body>
 </html>

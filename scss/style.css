@@ -64,12 +64,11 @@
   font-family: "Henny Penny", cursive;
 }
 
-.my-sec input {
-  width: 20vw;
-}
-
-.my-sec textarea {
-  width: 20vw;
+.my-sec {
+  background: #9453a6;
+  background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-font {
@@ -86,7 +85,11 @@
   background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
 }
 
-.div-head .link-1, .div-head .link-2, .div-head .link-3, .div-head .link-4, .div-head .link-5 {
+.div-head .link-1,
+.div-head .link-2,
+.div-head .link-3,
+.div-head .link-4,
+.div-head .link-5 {
   background-color: #9453a6;
   border-radius: 5px;
   color: #f2f2f2;

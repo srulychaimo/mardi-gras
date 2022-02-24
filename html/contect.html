@@ -24,8 +24,10 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
+<!-- my css -->
     <link rel="stylesheet" href="../scss/style.css" />
+    <!-- my js -->
+    <script src="../javascript/contect.js"></script>
   </head>
   <body>
     <!-- The Header -->
@@ -83,93 +85,98 @@
         </div>
       </nav>
     </header>
-  
-<!-- contact us -->
+    <!-- contact us -->
 
-<!-- name -->
-<section class="py-5 main-sec">
-  <form class="d-flex align-items-center justify-content-center" action="#">
-    <div
-      class="row my-sec py-4 col-sm-10 col-md-6 align-items-center justify-content-center"
-    >
-      <label class="d-none d-md-block py-2 col-10" for="name">Name</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        class="d-none d-md-block col-10"
-      />
-      <input
-        type="text"
-        id="nameSmall"
-        name="name"
-        class="d-block d-md-none mt-3 col-8"
-        placeholder="Name"
-      />
+    <!-- name -->
+    <section class="py-5 main-sec">
+      <form class="d-flex align-items-center justify-content-center" action="#">
+        <div
+          class="row my-sec py-4 col-sm-10 col-md-6 align-items-center justify-content-center"
+        >
+          <label class="d-none d-md-block py-2 col-10" for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="d-none d-md-block col-10"
+          />
+          <input
+            type="text"
+            id="nameSmall"
+            name="name"
+            class="d-block d-md-none mt-3 col-8"
+            placeholder="Name"
+          />
 
-      <br />
+          <br />
 
-      <label class="d-none d-md-block py-2 col-10" for="lastName"
-        >Last Name</label
-      >
-      <input
-        type="text"
-        id="lastName"
-        name="lastName"
-        class="d-none d-md-block col-10"
-      />
-      <input
-        type="text"
-        id="lastNameSmall"
-        name="lastName"
-        class="d-block d-md-none mt-3 col-8"
-        placeholder="Last Name"
-      />
+          <label class="d-none d-md-block py-2 col-10" for="lastName"
+            >Last Name</label
+          >
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            class="d-none d-md-block col-10"
+          />
+          <input
+            type="text"
+            id="lastNameSmall"
+            name="lastName"
+            class="d-block d-md-none mt-3 col-8"
+            placeholder="Last Name"
+          />
 
-      <br />
+          <br />
 
-      <label class="d-none d-md-block py-2 col-10" for="email">Email</label>
-      <input
-        type="text"
-        id="email"
-        name="email"
-        class="d-none d-md-block col-10"
-      />
-      <input
-        type="text"
-        id="emailSmall"
-        name="email"
-        class="d-block d-md-none mt-3 col-8"
-        placeholder="Email"
-      />
+          <label class="d-none d-md-block py-2 col-10" for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            class="d-none d-md-block col-10"
+          />
+          <input
+            type="text"
+            id="emailSmall"
+            name="email "
+            class="d-block d-md-none mt-3 col-8"
+            placeholder="Email"
+          />
+          <span id="spanEmail"></span>
 
-      <br />
+          <br />
 
-      <label class="d-none d-md-block py-2 col-10" for="comments"
-        >Write your comments here</label
-      >
-      <textarea
-        name="comments"
-        id="comments"
-        cols="25"
-        rows="3"
-        class="d-none d-md-block my-2 col-10"
-      ></textarea>
-      <textarea
-        name="comments"
-        id="commentsSmall"
-        cols="25"
-        rows="3"
-        class="d-block d-md-none mt-3 col-8"
-        placeholder="Write your comments here"
-      ></textarea>
+          <label class="d-none d-md-block py-2 col-10" for="comments"
+            >Write your comments here</label
+          >
+          <textarea
+            name="comments"
+            id="comments"
+            cols="25"
+            rows="3"
+            class="d-none d-md-block my-2 col-10"
+          ></textarea>
+          <textarea
+            name="comments"
+            id="commentsSmall"
+            cols="25"
+            rows="3"
+            class="d-block d-md-none mt-3 col-8"
+            placeholder="Write your comments here"
+          ></textarea>
 
-      <br />
+          <br />
 
-      <input type="submit" value="Submit" class="mt-3 col-8 col-md-10" />
-    </div>
-  </form>
-</section>
+          <input
+            type="button"
+            value="Submit"
+            class="mt-3 col-8 col-md-10"
+            onclick="testEmail()"
+          />
+        </div>
+      </form>
+    </section>
 
 
 

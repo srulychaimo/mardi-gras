@@ -28,6 +28,15 @@ $darkColor: #0d0d0d;
 }
 
 .the-cards {
+  .card {
+    background: rgb(148, 83, 166);
+    background: linear-gradient(
+      150deg,
+      rgba(148, 83, 166, 0.4) 12%,
+      rgba(140, 191, 63, 0.4) 55%,
+      rgba(242, 204, 15, 0.4) 100%
+    );
+  }
   h5 {
     font-family: $mainFont;
     font-weight: bold;

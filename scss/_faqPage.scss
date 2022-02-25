@@ -27,6 +27,13 @@ $darkColor: #0d0d0d;
 }
 
 .main-div {
+  background: rgb(148, 83, 166);
+  background: linear-gradient(
+    150deg,
+    rgba(148, 83, 166, 0.6) 12%,
+    rgba(140, 191, 63, 0.6) 55%,
+    rgba(242, 204, 15, 0.6) 100%
+  );
   h2 {
     font-family: $mainFont;
   }

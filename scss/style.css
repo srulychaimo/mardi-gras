@@ -24,6 +24,11 @@
   font-size: 1.5rem;
 }
 
+.the-cards .card {
+  background: #9453a6;
+  background: linear-gradient(150deg, rgba(148, 83, 166, 0.4) 12%, rgba(140, 191, 63, 0.4) 55%, rgba(242, 204, 15, 0.4) 100%);
+}
+
 .the-cards h5 {
   font-family: "Henny Penny", cursive;
   font-weight: bold;
@@ -60,6 +65,11 @@
   color: #f2f2f2;
 }
 
+.main-div {
+  background: #9453a6;
+  background: linear-gradient(150deg, rgba(148, 83, 166, 0.6) 12%, rgba(140, 191, 63, 0.6) 55%, rgba(242, 204, 15, 0.6) 100%);
+}
+
 .main-div h2 {
   font-family: "Henny Penny", cursive;
 }
@@ -79,10 +89,19 @@
   min-height: 100%;
 }
 
+.main-sec h2 {
+  font-family: "Henny Penny", cursive;
+}
+
 .main-sec .my-sec {
   background: #9453a6;
   background: linear-gradient(150deg, #9453a6 12%, #8cbf3f 55%, #f2cc0f 100%);
   font-family: "Roboto", sans-serif;
+}
+
+.main-sec {
+  background: #9453a6;
+  background: linear-gradient(150deg, rgba(148, 83, 166, 0.6) 12%, rgba(140, 191, 63, 0.6) 55%, rgba(242, 204, 15, 0.6) 100%);
 }
 
 .main-font {
@@ -132,5 +151,9 @@
 
 .footer-div p {
   font-size: 1em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

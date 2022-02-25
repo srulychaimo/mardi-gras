@@ -1,24 +1,19 @@
-// const nameInp = document.getElementById("name");
-// const nameInpSmall = document.getElementById("nameSmall");
-// const lastNameInp = document.getElementById("lastName");
-// const lastNameInpSmall = document.getElementById("lastNameSmall");
-// const emailInp = document.getElementById("email");
-// const emailInpSmall = document.getElementById("emailSmall");
-// const emailMassage = document.getElementById("spanEmail");
-// let userEmailInp = [];
+function validation() {
+  let form = document.getElementById("form");
+  let email = document.getElementById("email").value;
+  let emailSmall = document.getElementById("emailSmall").value;
+  let span = document.getElementById("spanEmail");
+  let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-// function pushIn() {
-//   if (emailInp.value) {
-//     userEmailInp.push(emailInp.value);
-//   } else if (emailInpSmall.value) {
-//     userEmailInp.push(emailInpSmall.value);
-//   }
-// }
-// function testEmail() {
-//   pushIn();
-
-//   if (!userEmailInp[0].includes("@")) {
-//     emailMassage.innerHTML +=
-//       "<span class=' text-danger'> ** You have entered an invalid email address</span>";
-//   }
-// }
+  if (email.match(pattern) || emailSmall.match(pattern)) {
+    form.classList.add("valid");
+    form.classList.remove("invalid");
+    span.innerHTML = "Your email address is valid.";
+    span.style.color = "#00ff00";
+  } else {
+    form.classList.remove("valid");
+    form.classList.add("invalid");
+    span.innerHTML = "Please enter a valid email address.";
+    span.style.color = "#ff0000";
+  }
+}
